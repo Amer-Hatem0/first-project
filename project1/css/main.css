@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Dancing+Script&family=Explora&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+height: 100vh;
+overflow: hidden;
+
+}
+img {
+    width: 100%;
+}
+
+.clrfx{
+    clear: both;
+}
+.container{
+    width:80%;
+   margin: auto;
+   
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    padding-top: 20px;
+    position: fixed;
+    
+    
+   width: 80%;
+}
+ul{
+     list-style-type: none;
+}
+.navbar ul {
+     float: right;
+   width: 40%;
+   
+ 
+   margin-top: 15px;
+   font-family: 'Alegreya', serif;
+}
+.navbar img {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    
+}
+.navbar li {
+   
+    float: left;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 400;
+color: #dddddd;
+ 
+}
+.logo img{
+    width: 150px;
+}
+.link{
+    color: #dddddd;
+}
+.linkhome{
+    color: white;
+}
+
+
+
+.header-content{
+    text-align: center;
+    margin-top: 120px;
+
+}
+.header-content img {
+    width: 25%;
+height: auto;
+}
+.header-content h1{
+    font-family: 'Alegreya', serif;
+    font-size: 76px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.learn {
+    padding: 20px 28px;;
+    border-radius: 5px;
+    background-color: #c1ab84;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+}
+.book{
+    padding: 20px 28px;;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color:black;
+margin-left: 5px;
+font-family: 'Alegreya Sans', sans-serif;
+font-weight: bold;
+}
+
+.bott{
+    margin-top: 45px;
+    
+}
+
+
+
+
+.parttwo {
+    padding: 40px;
+    
+}
+   
+.parttwo img{
+    width: 80%;
+}
+.imgchef {
+     float: left;
+width: 50%;
+   
+}
+.inform
+{
+     float: right;
+    width: 50%;
+    margin-top: 90px;
+  
+}
+ .inform h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 10px;
+ }
+.inform h3{
+     font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c1ab84;
+    margin-bottom: 10px;
+}
+.inform p{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 18px;
+  line-height: 1.86em;
+  margin-bottom: 10px;
+}
+.inform li i{
+    padding: 15px 15px;
+    background-color:#c1ab84  ;
+    border-radius: 100%;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+#aa{
+    font-size: 18px;
+}
+.inform li span{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 18px;
+}
+
+
+
+.partthree{
+   background-color: #f8f8f8;
+   padding: 100px;
+
+}
+
+.partthree img{
+  width: 50%;
+  float: right;
+}
+.informthree{
+    width: 40%;
+    float: left;
+    margin-right: 40px;
+}
+.informthree h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 10px;
+}
+.informthree h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c1ab84;
+    margin-bottom: 50px;
+}
+.informthree p{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 18px;
+  line-height: 1.86em;
+  margin-bottom: 40px;
+}
+.informthree li span{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 18px;
+}
+.informthree li i {
+   margin-bottom: 20px;
+   margin-right: 10px;
+   font-size: 20px;
+   color: #c1ab84;
+}
+
+
+
+.partfour{
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    
+   
+}
+
+.informfour{
+    float:left;
+    width: 33.3%;
+padding: 20px;
+   box-sizing: border-box;
+}
+.titlepartfour h2{
+    color: #253048;
+    font-size: 36px;
+    font-family: "Alegreya";
+}
+.titlepartfour p{
+    color: #c1ab84;
+    font-size:28px;
+    font-family: "Dancing Script";
+margin-bottom: 40px;
+margin-top: 8px;
+}
+
+.viewmenu{
+    margin: auto;
+    background-color: #c1ab84;
+    font-family: "Alegreya Sans";
+   
+    width: 10%;
+    padding: 20px 5px;
+    border-radius: 10px;
+    font-size: 17px;
+    
+}
+.viewmenu span{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.informfour img {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.informfour h4{
+    font-family: 'Alegreya', serif;
+    font-size: 21px;
+    color: #253048;
+    margin-bottom: 10px;
+    font-weight: 300;
+    
+}
+.informfour h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c1ab84;
+    margin-bottom: 50px;
+}
+.informfour p{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.86em;
+  margin-bottom: 50px;
+  
+}
+.informfourhp{
+    width: 84%;
+    margin: auto;
+
+}
+
+.partfive{
+   background-image: url(../img/shutterstock_280369721.jpg);
+   background-attachment: fixed;
+   padding-top: 500px;
+}
+
+
+
+.partsex{
+    padding: 40px;
+}
+
+.informpartsex{
+    width: 50%;
+    float: left;
+}
+.iframpartsex{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.informpartsex h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    color: #253048;
+    margin-bottom: 10px;
+}
+
+.informpartsex p{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 18px;
+  line-height: 1.86em;
+  margin-bottom: 40px;
+}
+
+.informpartsex li i{
+    
+        padding: 10px 10px;
+        background-color:#c1ab84  ;
+        border-radius: 100%;
+        color: #ffffff;
+        margin-bottom: 5px;
+        font-size: 16px;
+        margin-right: 10px;
+    
+}
+.informpartsex li span{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 18px;
+}
+
+.parteight{
+    padding: 40px;
+    background-color: #353330;
+}
+.widget-contact-details-item{
+    margin-bottom: 10px;
+}
+.informeight{
+    width: 25%;
+    float: left;
+    padding: 20px 20px;
+   box-sizing: border-box;
+}
+
+.informeight h4{
+    font-family: "Alegreya";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.informeight p{
+    color: #686868;
+    font-weight: 400;
+      font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.86em;
+  margin-bottom: 30px;
+}
+.informeight a{
+    color: #686868;
+  
+}
+.informeight span{
+    color: #686868;
+    line-height: 1px;
+    
+}
+.informeight li{
+    color: #686868;  
+       margin-bottom: 30px;
+}
+
+.informeight  i{
+    color: #686868;
+    margin-bottom: 40px;
+}
+
+
+
+
+.partnine{
+    background-color: #292723;
+    padding: 60px ;
+    text-align: center;
+    
+}
+.partnine img{
+    width: 40%;
+}
+.partnine p{
+    color: #777;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.iconsocial a{
+    
+padding: 20px 20px;
+border-radius: 100%;
+color: #8c8a86;
+background-color: #484540;
+margin-top: 20px;
+margin-bottom: 30px;
+
+text-align: center;
+}
+.iconsocial i{
+   font-size: 20px; 
+}
+
+.bar{
+    position:fixed;
+right: 0;
+top: 200px;
+height: 86px;
+width: 42px;
+background: #fff;
+border-radius: 4px 0 0 4px;
+box-shadow: 0 -1px 17px 1px rgba(0,0,0,.09);
+text-align: center;
+line-height: 42px;
+font-size: 22px;
+z-index: 555;
+}
+.bar i{
+    color: #666;
+}
